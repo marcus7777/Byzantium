@@ -35,25 +35,8 @@ http://wiki.hacdc.org/index.php/Downloading_Byzantium
    hit the appropriate key on your keyboard during boot to open the boot device 
    selection menu and choose your CD or DVD-ROM drive.
  * Boot your computer from the Byzantium media.
- * When the desktop appears, start Firefox.
- * Go to the URL http://localhost:8080/
- * Click on "Configure Network Interface".
- * Click the button for your wireless card (usually wlan0, but it might be 
-   different for you).
- * Enter a ESSID and wireless channel.  By default, they are 'Byzantium' and 
-   channel 3.
- * Byzantium will generate a network configuration for the node.  Please be 
-   patient, this may take a while.
- * Confirm that you want to configure the node with the parameters it has.  
-   Note the client address of the node (it'll start with "10.").
- * Click on "Configure Mesh Networking".
- * Click on your configured wireless interface.
- * Click 'Enable'.
- * Cick on "System Services"
- * Pick something you want to start - the Microblog, an IRC server (this will 
-   then require you to start Web Chat), or Etherpad and click the 'Activate' 
-   button next to it.  You can start SSH if you want but this is a security 
-   vulnerability, so please don't do this unless you have to.
+ * login as guest with password guest
+ * When the desktop appears, Firefox will start and give you the next step.
  * Connect some wireless devices (like another laptop or netbook) to your 
    mesh.  They need to be capable of ad-hoc wireless mode for this to work (for 
    now).
